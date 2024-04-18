@@ -1,6 +1,6 @@
 # TalentGrowth Technical Case Study
 
-Application: **Laravel Engineer** at **NineFoxLab**
+Job Application: **Laravel Engineer** at **NineFoxLab**
 
 ## Introduction
 
@@ -12,6 +12,17 @@ I name this simple app **JobHunter** with two features:
 
 1. Job application (directly accessible at **/** route) that contains several input fields needed to apply for a job. Company name can be specified via URL parameter (key: `company`) or **NineFoxLab** for the default
 2. Application submission (when finished applying for a job i.e. clicking the **Submit** button) that contains the details of the job application, from the submitted form data
+
+The demo can be accessed at https://nfl-laravel.michaelrk02.my.id/
+
+## How to Run
+
+1. Make sure Git, PHP (8.2 or higher), and Composer are installed
+2. Clone this repository and open the terminal inside the repo directory 
+3. Run `$ composer install`
+4. Copy `.env.example` file to `.env` and adjust the application URL
+5. Run `$ php artisan key:generate --ansi`
+6. Deploy using `$ php artisan serve` or by creating Apache virtual host pointing at `public` directory
 
 ## Technical Details
 
